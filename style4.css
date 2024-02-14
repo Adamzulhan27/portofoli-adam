@@ -50,36 +50,23 @@ table {
 
 
 .container {
-	width: 818px;
-	color: darkblue;
-	font: 16px/18px arial arial, sans-serif;;
-	background-image: url(aset/mo.png);
+	width: 1352px;
+	color: red;
+	font: 20px/24px arial arial, sans-serif;;
+	background-color: black;
 	margin: auto;
 	padding: 20px;
 	box-sizing: border-box;
 }
+
 .header h2 {
-	color: drakgreen;
+	color: greenyellow;
 	margin: 10px;
 	float: left;
 	text-align: right;
 	
 }
-.hero {
-	margin: 10px auto;
-	display: block;
-	width: 150px;
 
-}
-.hero img{
-	width: 150px;
-	height: 150px;
-	margin-top: 100px;
-	margin-botton: 100px;
-	margin-left: 15px;
-	border-radius: 50%;
-
-}
 .header ul li a{
 	display: inline-block;
 	float: right;
@@ -88,97 +75,69 @@ table {
 }
 .header ul li a{
 	text-decoration: none;
-	color: darkblue;
+	color: white;
 }
 .header ul li a:hover {
 	text-decoration: none;
-	color: white;
-	background-color: black;
+	color: deeppink;
+	background-color: blue;
 
 }
 
-.beranda{
-	width: 1024px;
-	margin-top: 30px ;
-	margin-bottom: 30px;
-	color: darkblue;
-	box-sizing: border-box;
-
-}
-.tentangsaya{
-	width: 980px;
-	text-align: justify;
-	margin-top: 100px;
-	margin-botton: 100px;
-	padding: 10px;
-	box-sizing: border-box;
-}
-.tentangsaya h2 {
-	color: green;
-	font-weight: bold;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-.portofolio .cap1 img {
-	width: 300px;
-	float: left;
-	margin: 20 ;
-}
-.portofolio .cap2 img {
-	width: 300px;
-	float: left;
-	margin: 20 auto;
-}
-.portofolio .cap3 img {
-	width: 300px;
-	float: left;
-	margin: 20 auto;
-}
-
-.portofolio {
-	width: 980px;
-	margin-top: 100px;
-	margin-botton: 100px;
-	color: darkblue;
-	
-}
-.portofolio h2 {
-	margin-top: 20px auto;
-	color: green;
-	font-weight: bold;
-}
 
 .kontak h2 {
-	margin-top: 20px;
-	color: green;
+	margin-top: 100px;
+	font-size: 64px;
+	color: whitesmoke;
 	font-weight: bold;
+	text-align: center;
 }
 
 .kontak  {
-	width: 980px;
-	margin-top: 100px;
-	margin-botton: 100px;
-	color: green;
+	color: ghostwhite;
 
 }
-.kontak p{
-	color: darkblue;
+.kontak .p1{
+	margin-top: 150px;
+	color: ghostwhite;
 }
 .wa img{
 	width: 100px;
-	margin-top: 20px;
+	margin-top: 50px;
+	margin-left: 40px; 
+	float: left;
 	
+}
+.wa p{
+	margin-top: 50px;	
+	margin-left: 50px;
+	float: left;
 }
 .ig img{
 	width: 80px;
-	margin-top: 20px;	
-	margin-left: 10px;
+	margin-top: 50px;	
+	margin-left: 50px;
+	float: left;
+	
+}
+.ig p{
+	margin-top: 50px;	
+	margin-left: 50px;
+	float: left;
 }
 .email img{
 	width: 80px;
-	margin-top: 20px;	
-	margin-left: 10px;
+	margin-top: 50px;	
+	margin-left: 50px;
+	float: left;
+	
 }
+.email p{
+	margin-top: 50px;	
+	margin-left: 50px;
+	float: left;
+}
+
 
 /* For mobile phones: */
 [class*="col-"] {

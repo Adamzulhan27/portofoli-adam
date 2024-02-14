@@ -50,36 +50,24 @@ table {
 
 
 .container {
-	width: 818px;
-	color: darkblue;
-	font: 16px/18px arial arial, sans-serif;;
-	background-image: url(aset/mo.png);
+	width: 1352px;
+	height: 680px;
+	color: red;
+	font: 20px/24px arial arial, sans-serif;;
+	background-image: url(aset/portofolio.jpg);
 	margin: auto;
 	padding: 20px;
 	box-sizing: border-box;
 }
+
 .header h2 {
-	color: drakgreen;
+	color: darkgreen;
 	margin: 10px;
 	float: left;
 	text-align: right;
 	
 }
-.hero {
-	margin: 10px auto;
-	display: block;
-	width: 150px;
 
-}
-.hero img{
-	width: 150px;
-	height: 150px;
-	margin-top: 100px;
-	margin-botton: 100px;
-	margin-left: 15px;
-	border-radius: 50%;
-
-}
 .header ul li a{
 	display: inline-block;
 	float: right;
@@ -92,93 +80,47 @@ table {
 }
 .header ul li a:hover {
 	text-decoration: none;
-	color: white;
+	color: deeppink;
 	background-color: black;
 
 }
 
-.beranda{
-	width: 1024px;
-	margin-top: 30px ;
-	margin-bottom: 30px;
-	color: darkblue;
-	box-sizing: border-box;
 
-}
-.tentangsaya{
-	width: 980px;
-	text-align: justify;
-	margin-top: 100px;
-	margin-botton: 100px;
-	padding: 10px;
-	box-sizing: border-box;
-}
-.tentangsaya h2 {
-	color: green;
-	font-weight: bold;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
+
 .portofolio .cap1 img {
-	width: 300px;
+	width: 375px;
 	float: left;
-	margin: 20 ;
+	margin: 5px 20px;
 }
 .portofolio .cap2 img {
-	width: 300px;
+	width: 375px;
 	float: left;
-	margin: 20 auto;
+	margin: 5px 20px;
 }
 .portofolio .cap3 img {
-	width: 300px;
+	width: 375px;
 	float: left;
-	margin: 20 auto;
+	margin: 5px 20px;
 }
 
-.portofolio {
-	width: 980px;
-	margin-top: 100px;
-	margin-botton: 100px;
-	color: darkblue;
+.portofolio p{
+	margin: 2px auto;
+	color: white;
+	font-size: 40px;
+	text-align: justify;
+	border: 3px solid black;
+	line-height: 40px;
+	background-color: black;
 	
 }
 .portofolio h2 {
-	margin-top: 20px auto;
-	color: green;
+	margin-top: 50px;
+	color: darkgreen;
+	font-size: 64px;
+	text-align: center;
 	font-weight: bold;
 }
 
-.kontak h2 {
-	margin-top: 20px;
-	color: green;
-	font-weight: bold;
-}
-
-.kontak  {
-	width: 980px;
-	margin-top: 100px;
-	margin-botton: 100px;
-	color: green;
-
-}
-.kontak p{
-	color: darkblue;
-}
-.wa img{
-	width: 100px;
-	margin-top: 20px;
-	
-}
-.ig img{
-	width: 80px;
-	margin-top: 20px;	
-	margin-left: 10px;
-}
-.email img{
-	width: 80px;
-	margin-top: 20px;	
-	margin-left: 10px;
-}
 
 /* For mobile phones: */
 [class*="col-"] {
